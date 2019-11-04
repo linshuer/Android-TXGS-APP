@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/infotextedit"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/home_date"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="2018/6/18"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/h_image"
+            android:layout_width="360dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/imagexx"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/image1" />
+
+        <TextView
+            android:id="@+id/home_type_nickname"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="绘画 | linshuer"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/home_title"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center|top"
+            android:text="没有未来的未来不是我想要的未来"
+            android:textColor="#000"
+            android:textSize="16dp" />
+        <TextView
+            android:id="@+id/h_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:background="#fff"
+            android:text="id"
+            android:textSize="12dp" />
+    </LinearLayout>
+</LinearLayout>

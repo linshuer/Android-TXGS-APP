@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/view_share_pengyou"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/share_py"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:scaleType="fitCenter"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/share_py" />
+
+            <TextView
+                android:id="@+id/share_p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/share_py"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="朋友圈"
+                android:textSize="14dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/view_share_weixin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/share_wx"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:scaleType="fitCenter"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/share_wx" />
+
+            <TextView
+                android:id="@+id/share_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/share_wx"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="微信"
+                android:textSize="14dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/view_share_qq"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/share_qq"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:scaleType="fitCenter"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/share_qq" />
+
+            <TextView
+                android:id="@+id/share_q"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/share_qq"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="QQ"
+                android:textSize="14dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="1dp"
+        android:background="#fff" />
+
+    <Button
+        android:id="@+id/share_cancel_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:outlineProvider="none"
+        android:textColor="#555555"
+        android:textSize="16dp"
+        android:background="@drawable/candel"
+        android:text="取消分享" />
+
+</LinearLayout>

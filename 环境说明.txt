@@ -1,0 +1,2 @@
+本APP在win10下开发，服务端为Tomcat9.0，Android端使用Android studio3.0，并在手机安装运行。
+在Tomcat下记得在Tomcat下的 导入MySQL的jar包

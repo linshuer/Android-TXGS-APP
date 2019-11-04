@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.linshuer.xiangshuo.Login">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"/>
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_marginTop="30dp"
+            android:layout_width="260dp"
+            android:layout_height="36dp"
+            android:text="登录"
+            android:textSize="14dp"
+            android:outlineProvider="none"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/loginbtn"/>
+        <Button
+            android:id="@+id/logupbtn"
+            android:layout_marginTop="20dp"
+            android:layout_width="260dp"
+            android:layout_height="36dp"
+            android:text="注册"
+            android:textSize="14dp"
+            android:outlineProvider="none"
+            android:textColor="#42a004"
+            android:background="@drawable/loginbtn"/>
+
+</LinearLayout>

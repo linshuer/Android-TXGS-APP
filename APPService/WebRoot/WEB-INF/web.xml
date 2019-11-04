@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <servlet>
+    <servlet-name>AddArticleAction</servlet-name>
+    <servlet-class>action.AddArticleAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AlterInfoAction</servlet-name>
+    <servlet-class>action.AlterInfoAction</servlet-class>
+  </servlet>
+    <servlet>
+    <servlet-name>MeArticleAction</servlet-name>
+    <servlet-class>action.MeArticleAction</servlet-class>
+  </servlet>
+    <servlet>
+    <servlet-name>SignInAction</servlet-name>
+    <servlet-class>action.SignInAction</servlet-class>
+  </servlet>
+    <servlet>
+    <servlet-name>SignUpAction</servlet-name>
+    <servlet-class>action.SignUpAction</servlet-class>
+  </servlet>
+    <servlet>
+    <servlet-name>UploadImageAction</servlet-name>
+    <servlet-class>action.UploadImageAction</servlet-class>
+  </servlet>
+      <servlet>
+    <servlet-name>UploadPicAction</servlet-name>
+    <servlet-class>action.UploadPicAction</servlet-class>
+  </servlet>
+   <servlet>
+    <servlet-name>UserInfoAction</servlet-name>
+    <servlet-class>action.UserInfoAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MyArticleAction</servlet-name>
+    <servlet-class>action.MyArticleAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AllArticleAction</servlet-name>
+    <servlet-class>action.AllArticleAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ArticleInfoShowAction</servlet-name>
+    <servlet-class>action.ArticleInfoShowAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteArticleAction</servlet-name>
+    <servlet-class>action.DeleteArticleAction</servlet-class>
+  </servlet>
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AddArticleAction</servlet-name>
+    <url-pattern>/addArticleAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlterInfoAction</servlet-name>
+    <url-pattern>/alterInfoAction</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>MeArticleAction</servlet-name>
+    <url-pattern>/meArticleAction</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>SignInAction</servlet-name>
+    <url-pattern>/signInAction</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>SignUpAction</servlet-name>
+    <url-pattern>/signUpAction</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>UploadImageAction</servlet-name>
+    <url-pattern>/uploadImageAction</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>UploadPicAction</servlet-name>
+    <url-pattern>/uploadPicAction</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>UserInfoAction</servlet-name>
+    <url-pattern>/userInfoAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyArticleAction</servlet-name>
+    <url-pattern>/myArticleAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AllArticleAction</servlet-name>
+    <url-pattern>/allArticleAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ArticleInfoShowAction</servlet-name>
+    <url-pattern>/articleInfoShowAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteArticleAction</servlet-name>
+    <url-pattern>/deleteArticleAction</url-pattern>
+  </servlet-mapping>
+
+</web-app>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">XiangShuo</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="sex">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <string-array name="theme">
+        <item>蓝色</item>
+        <item>紫色</item>
+        <item>绿色</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>原创</item>
+        <item>分享</item>
+        <item>真实</item>
+    </string-array>
+</resources>
