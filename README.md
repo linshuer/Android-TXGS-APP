@@ -14,5 +14,4 @@
 * 数据库： Mysql 5.7
 
 ## APP截图
-* 编辑
-![image text](https://github.com/linshuer/Android-txgs-APP/blob/master/APPImgShow/bianji.png)
+* 提醒：截图在文件夹APPImgShow中，你可以下载整个看，或者用梯子看。这里显示不了。
